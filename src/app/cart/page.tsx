@@ -133,6 +133,8 @@ const Cart = async () => {
                   <Image
                     src={urlFor(item.images && item.images[0]).url()}
                     alt={item.name}
+                    height={270}
+                    width={250}
                   />
                 </div>
                 {/* item details */}
@@ -162,7 +164,7 @@ const Cart = async () => {
                   </div>
                   {/* item tags */}
                   <h2 className=" text-2xl font-semibold opacity-30">
-                    {item.tags.tags}
+                    {item.tags && item.tags.tags}
                   </h2>
                   {/* delivery estiumation */}
                   <p className=" text-primary font-semibold text-xl ">

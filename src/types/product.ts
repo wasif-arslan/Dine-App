@@ -13,7 +13,7 @@ export interface IProduct extends Product {
     care : string[],
     // _id : string,
     // images : any[],
-    // tag : {tag : string},
+    tag : {tag : string},
     slug: { current : string },
     category: {category : string} ,
     // quantity? : number | any

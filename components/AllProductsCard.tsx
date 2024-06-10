@@ -63,7 +63,7 @@ const AllProductsCard = ({ data }: { data: IProduct[] }) => {
                     alt="An image"
                     height={270}
                     width={250}
-                    className="  relative"
+                    className="  "
                   />
                 </div>
 

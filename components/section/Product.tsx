@@ -36,7 +36,7 @@ const Product = () => {
   }, []);
 
   return (
-    <div className="py-[30px] event-container">
+    <div className="py-[30px] event-container mt-10">
       <div className="subtitle">
         {/** product */}
         <span>PRODUCTS</span>

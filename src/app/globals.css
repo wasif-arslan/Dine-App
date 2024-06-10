@@ -114,7 +114,7 @@
     @apply w-[600px] h-[600px] rounded-full bg-[#ffece3]
   }
   .header-circle .header-img {
-    @apply absolute top-[-5%]
+    @apply absolute 
   }
   /*-------------------- EVENTS SECTION ------------------*/
   /* .event-container {

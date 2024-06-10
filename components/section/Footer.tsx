@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-[1px] m-3 bg-black"></div>
       <div className="text-center ">
-        <p className="text-sm">Copyright © 2022 Dine Market By Wasif</p>
+        <p className="text-sm">Copyright © 2023 Dine Market By Wasif</p>
       </div>
     </footer>
   );

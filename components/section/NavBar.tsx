@@ -51,8 +51,8 @@ const Navbar = () => {
   const { showCart, setShowCart, totalQty } = useStateContext();
 
   return (
-    <nav className="flex lg:px-20 px-10 justify-between items-center h-20 ">
-      <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
+    <nav className="flex lg:px-20 md:px-10 px-2 justify-between items-center h-20 ">
+      <Link href="/" className="md:ml-4 flex lg:ml-0 gap-x-2 ">
         <Image src={Logo} alt="Logo" />
       </Link>
       <div className="lg:flex hidden ">
@@ -62,7 +62,7 @@ const Navbar = () => {
               {manuLi.map((menu) => (
                 <Link href={menu.path} key={menu.name} legacyBehavior passHref>
                   <NavigationMenuLink
-                    className={`${navigationMenuTriggerStyle()}  leading-5 text-md `}
+                    className={`${navigationMenuTriggerStyle()}  leading-5 text-[17px] `}
                   >
                     {menu.name}
                   </NavigationMenuLink>

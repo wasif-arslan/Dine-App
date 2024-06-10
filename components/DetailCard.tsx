@@ -75,7 +75,8 @@ const DetailCard = ({ data }: { data: IProduct[] }) => {
                     {item.name}
                   </h1>
                   <h2 className="text-2xl font-semibold opacity-30">
-                    {item.tags.tags}
+                
+                    {item.tags && item.tags.tags}
                   </h2>
                 </div>
                 <div className="size">
@@ -151,7 +152,7 @@ const DetailCard = ({ data }: { data: IProduct[] }) => {
                         onAdd(item, qty);
                       }
                     }}
-                    className="h-full w-full rounded-lg bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-4 py-2 text-white"
+                    className="h-full w-full rounded-lg bg-black text-white px-6 py-3  gap-5"
                   >
                     <CgShoppingCart size={20} /> Add to card
                   </Button>
