@@ -90,9 +90,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Wasif Arslan - [your-email@example.com](mailto:wasifarslan81@gmail.com)
+Wasif Arslan - [wasifarslan81@gmail.com](mailto:wasifarslan81@gmail.com)
 
-Project Link: [https://github.com/your-username/Dine-App](https://github.com/wasif-arslan/Dine-App)
+Project Link: [https://github.com/wasif-arslan/Dine-App](https://github.com/wasif-arslan/Dine-App)
 
 ## Acknowledgements
 
