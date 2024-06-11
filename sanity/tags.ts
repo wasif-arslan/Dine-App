@@ -16,3 +16,15 @@ export const Tags = defineType(
         ]
     }
 )
+
+// name: 'tags',
+// title: 'Tags',
+// type: 'document',
+// fields: [
+//   {
+//     name: 'title',
+//     title: 'Title',
+//     type: 'string',
+//   },
+//   // Add other fields here
+// ],
