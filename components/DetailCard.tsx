@@ -14,7 +14,6 @@ const DetailCard = ({ data }: { data: IProduct[] }) => {
   const [active, setActive] = useState<"xl" | "m" | "l" | "s" | "xs">("m");
 
   const { decQty, incQty, qty, onAdd } = useStateContext();
-  // get current signIn user
   const { isLoaded, isSignedIn, user } = useUser();
 
   const handleAddToCart = async (id: string, quantity: number) => {
@@ -42,8 +41,6 @@ const DetailCard = ({ data }: { data: IProduct[] }) => {
           // head section
           <div className="" key={item._id}>
             <div className="flex flex-col md:flex-row gap-4 w-auto min-h-min justify-evenly">
-              {/** left images section */}
-
               <div className="flex flex-wrap md:flex-col items-center mx-auto justify-center md:justify-start gap-y-4 gap-x-[2px] lg:gap-x-1 lg:gap-2 ">
                 {item.images.map((img, ind) => (
                   <Image
