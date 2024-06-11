@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../../public/logo.webp";
+import Logo from "../../public/Logo.webp";
 import { GrFacebookOption, GrTwitter, GrLinkedinOption } from "react-icons/gr";
 
 const Footer = () => {
