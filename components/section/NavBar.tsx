@@ -55,6 +55,9 @@ const Navbar = () => {
       <Link href="/" className="md:ml-4 flex lg:ml-0 gap-x-2 ">
         <Image src={Logo} alt="Logo" />
       </Link>
+      <div className="text-[red] text-base font-sans">
+        <Link href="https://github.com/wasif-arslan">Wasif Contact Link</Link>
+      </div>
       <div className="lg:flex hidden ">
         <NavigationMenu>
           <NavigationMenuList>
